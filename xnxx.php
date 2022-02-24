@@ -1,5 +1,6 @@
 <?php
-include('simple_html_dom.php');
+//include('simple_html_dom.php');
+include('https://raw.githubusercontent.com/mxboxapp/stores/master/simple_html_dom.php');
 //$html = file_get_html("https://www.xnxx.tv/best/2010-01");
 $html = file_get_html('https://www.xnxx.tv/search/xnxx#');
 $arr =array();
